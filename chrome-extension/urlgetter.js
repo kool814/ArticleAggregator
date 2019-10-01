@@ -16,9 +16,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 function send_url(url_to_send){
     var request = new XMLHttpRequest();
-    request.open("POST", "http://localhost:8000", true);
+    request.open("POST", "http://127.0.0.1:8000/json-example", true);
     request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    request.send(JSON.stringify({denny: 1, mark: 1, johnny: 0}));
+    request.send(JSON.stringify({url: url_to_send}));
 }
 
 
