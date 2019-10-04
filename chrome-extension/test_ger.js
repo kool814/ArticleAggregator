@@ -1,3 +1,5 @@
+// To run: `node test_ger.js`
+
 var g = require('ger')
 var esm = new g.MemESM()
 var ger = new g.GER(esm);
@@ -24,6 +26,34 @@ ger.initialize_namespace('newsletters')
       person: 'alice',
       action: 'likes',
       thing: 'paul-krugman',
+      expires_at: '2025-06-06'
+    },
+    {
+      namespace: 'newsletters',
+      person: 'dave',
+      action: 'dislikes',
+      thing: 'paul-krugman',
+      expires_at: '2025-06-06'
+    },
+    {
+      namespace: 'newsletters',
+      person: 'dave',
+      action: 'likes',
+      thing: 'accelerated',
+      expires_at: '2025-06-06'
+    },
+    {
+      namespace: 'newsletters',
+      person: 'kyle',
+      action: 'likes',
+      thing: 'paul-krugman',
+      expires_at: '2025-06-06'
+    },
+    {
+      namespace: 'newsletters',
+      person: 'kyle',
+      action: 'likes',
+      thing: 'accelerated',
       expires_at: '2025-06-06'
     },
   ])
