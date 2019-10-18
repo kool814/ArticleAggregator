@@ -1,0 +1,10 @@
+2019-10-10 11:13:28.508 EDT [69577] LOG:  listening on IPv6 address "::1", port 5432
+2019-10-10 11:13:28.508 EDT [69577] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-10 11:13:28.509 EDT [69577] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-10 11:13:28.532 EDT [69578] LOG:  database system was shut down at 2019-10-10 10:50:26 EDT
+2019-10-10 11:13:28.539 EDT [69577] LOG:  database system is ready to accept connections
+2019-10-10 11:13:44.723 EDT [69577] LOG:  received fast shutdown request
+2019-10-10 11:13:44.724 EDT [69577] LOG:  aborting any active transactions
+2019-10-10 11:13:44.725 EDT [69577] LOG:  background worker "logical replication launcher" (PID 69584) exited with exit code 1
+2019-10-10 11:13:44.726 EDT [69579] LOG:  shutting down
+2019-10-10 11:13:44.732 EDT [69577] LOG:  database system is shut down
