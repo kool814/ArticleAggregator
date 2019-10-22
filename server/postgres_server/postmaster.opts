@@ -1,1 +1,1 @@
-/usr/local/Cellar/postgresql/11.5_1/bin/postgres "-D" "postgres_server"
+/usr/local/Cellar/postgresql/11.5_1/bin/postgres "-D" "/Users/karthiksuresh/Documents/GitHub/ArticleAggregator/server/postgres_server"
