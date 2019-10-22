@@ -1,2 +1,10 @@
-2019-10-18 16:56:04.665 EDT [58921] FATAL:  data directory "/Users/karthiksuresh/Documents/GitHub/ArticleAggregator/server/postgres_server" has invalid permissions
-2019-10-18 16:56:04.665 EDT [58921] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2019-10-18 16:41:34.433 EDT [62125] LOG:  listening on IPv6 address "::1", port 5432
+2019-10-18 16:41:34.433 EDT [62125] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-18 16:41:34.434 EDT [62125] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-18 16:41:34.450 EDT [62126] LOG:  database system was shut down at 2019-10-10 11:13:44 EDT
+2019-10-18 16:41:34.457 EDT [62125] LOG:  database system is ready to accept connections
+2019-10-18 16:41:39.486 EDT [62125] LOG:  received fast shutdown request
+2019-10-18 16:41:39.486 EDT [62125] LOG:  aborting any active transactions
+2019-10-18 16:41:39.487 EDT [62125] LOG:  background worker "logical replication launcher" (PID 62132) exited with exit code 1
+2019-10-18 16:41:39.488 EDT [62127] LOG:  shutting down
+2019-10-18 16:41:39.494 EDT [62125] LOG:  database system is shut down
