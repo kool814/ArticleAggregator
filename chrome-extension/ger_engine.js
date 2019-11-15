@@ -1,5 +1,30 @@
 // To run: `node test_ger.js`
 
+// var pg = require('pg');
+const Pool = require('pg').Pool
+const pool = new Pool({
+  user: 'karthiksuresh',
+  host: 'localhost',
+  database: 'articles',
+  password: '',
+  port: 5432,
+})
+
+const getArticle = (request, response) => {
+  pool.query('SELECT * FROM article', (error, results) => {
+    if (error) {
+      throw error
+    }
+    console.log(JSON.stringify(results.rows, null, 2))
+    response.status(200).json(results.rows)
+  })
+}
+
+
+module.exports = {
+  getArticle,
+}
+
 var g = require('ger')
 var esm = new g.MemESM()
 var ger = new g.GER(esm);

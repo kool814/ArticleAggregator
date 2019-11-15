@@ -8,3 +8,21 @@
 2019-10-10 11:13:44.725 EDT [69577] LOG:  background worker "logical replication launcher" (PID 69584) exited with exit code 1
 2019-10-10 11:13:44.726 EDT [69579] LOG:  shutting down
 2019-10-10 11:13:44.732 EDT [69577] LOG:  database system is shut down
+2019-11-13 21:53:46.140 EST [65429] LOG:  listening on IPv6 address "::1", port 5432
+2019-11-13 21:53:46.141 EST [65429] LOG:  listening on IPv6 address "fe80::1%lo0", port 5432
+2019-11-13 21:53:46.141 EST [65429] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-11-13 21:53:46.142 EST [65429] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-11-13 21:53:46.154 EST [65430] LOG:  database system was shut down at 2019-11-13 21:52:58 EST
+2019-11-13 21:53:46.163 EST [65429] LOG:  database system is ready to accept connections
+2019-11-15 16:10:03.784 EST [1138] FATAL:  database "article" does not exist
+2019-11-15 16:10:05.328 EST [1140] FATAL:  database "articles" does not exist
+2019-11-15 16:10:14.818 EST [1145] ERROR:  syntax error at or near "articles" at character 1
+2019-11-15 16:10:14.818 EST [1145] STATEMENT:  articles
+	;
+2019-11-15 16:10:20.360 EST [1158] FATAL:  database "articles" does not exist
+2019-11-15 16:10:46.790 EST [1176] FATAL:  database "articles" does not exist
+2019-11-15 16:11:14.678 EST [65429] LOG:  received fast shutdown request
+2019-11-15 16:11:14.680 EST [65429] LOG:  aborting any active transactions
+2019-11-15 16:11:14.683 EST [65429] LOG:  background worker "logical replication launcher" (PID 65436) exited with exit code 1
+2019-11-15 16:11:14.684 EST [65431] LOG:  shutting down
+2019-11-15 16:11:14.709 EST [65429] LOG:  database system is shut down
