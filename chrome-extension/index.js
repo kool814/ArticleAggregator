@@ -18,6 +18,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/allArticle', db.getArticle)
+// app.get('/recommendation/:user', db.runRecommendation, db.getArticle)
 
 app.listen(port, () => {
     console.log(`App running on port ${port}.`)
