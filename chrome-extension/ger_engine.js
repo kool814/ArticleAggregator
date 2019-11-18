@@ -48,46 +48,47 @@ module.exports = {
   getArticle,
 }
 
-// var g = require('ger')
-// var esm = new g.MemESM()
-// var ger = new g.GER(esm);
-// // var testObjects = require('./ger_test.json')
 
-// // temp_event = [{
-// //   "namespace": "newsletters",
-// //   "person": "chris",
-// //   "action": "likes",
-// //   "thing": "ben-thompson",
-// //   "expires_at": "2025-06-06"
-// // },
-// // {
-// //   "namespace": "newsletters",
-// //   "person": "chris",
-// //   "action": "likes",
-// //   "thing": "paul-krugman",
-// //   "expires_at": "2025-06-06"
-// // }]
+var g = require('ger')
+var esm = new g.MemESM()
+var ger = new g.GER(esm);
+// var testObjects = require('./ger_test.json')
 
-// ger.initialize_namespace('newsletters')
-// .then( function() {
-//   return ger.events(testObjects)
+// temp_event = [{
+//   "namespace": "newsletters",
+//   "person": "chris",
+//   "action": "likes",
+//   "thing": "ben-thompson",
+//   "expires_at": "2025-06-06"
+// },
+// {
+//   "namespace": "newsletters",
+//   "person": "chris",
+//   "action": "likes",
+//   "thing": "paul-krugman",
+//   "expires_at": "2025-06-06"
+// }]
+
+ger.initialize_namespace('newsletters')
+.then( function() {
+  return ger.events(testObjects)
+})
+// .then(function() {
+//   return ger.events(temp_event)
 // })
-// // .then(function() {
-// //   return ger.events(temp_event)
-// // })
-// .then( function() {
-//   // What things might alice like?
-//   return ger.recommendations_for_person('newsletters', 'alice', {actions: {likes: 1}})
-// })
-// .then( function(recommendations) {
-//   console.log("\nRecommendations For 'alice'")
-//   console.log(JSON.stringify(recommendations, null, 2))
-// })
-// .then( function() {
-//   // What things are similar to paul-krugman?
-//   return ger.recommendations_for_thing('newsletters', 'paul-krugman', {actions: {likes: 1}})
-// })
-// .then( function(recommendations) {
-//   console.log("\nRecommendations Like 'paul-krugman'")
-//   console.log(JSON.stringify(recommendations, null, 2))
-// })
+.then( function() {
+  // What things might alice like?
+  return ger.recommendations_for_person('newsletters', 'alice', {actions: {likes: 1}})
+})
+.then( function(recommendations) {
+  console.log("\nRecommendations For 'alice'")
+  console.log(JSON.stringify(recommendations, null, 2))
+})
+.then( function() {
+  // What things are similar to paul-krugman?
+  return ger.recommendations_for_thing('newsletters', 'paul-krugman', {actions: {likes: 1}})
+})
+.then( function(recommendations) {
+  console.log("\nRecommendations Like 'paul-krugman'")
+  console.log(JSON.stringify(recommendations, null, 2))
+})
