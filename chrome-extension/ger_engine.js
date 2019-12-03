@@ -1,5 +1,4 @@
 // To run: `node test_ger.js`
-<<<<<<< HEAD
 
 // var pg = require('pg');
 const Pool = require('pg').Pool
@@ -50,12 +49,6 @@ module.exports = {
 }
 
 
-=======
-// write a query that gives proper structure for each like
-// clear json file
-// write to json
-// pull from json
->>>>>>> 7fa0abd9671aaa5a92c9b5000086cc0ffd0c1865
 var g = require('ger')
 var esm = new g.MemESM()
 var ger = new g.GER(esm);
