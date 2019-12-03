@@ -1,5 +1,8 @@
 // To run: `node test_ger.js`
-
+// write a query that gives proper structure for each like
+// clear json file
+// write to json
+// pull from json
 var g = require('ger')
 var esm = new g.MemESM()
 var ger = new g.GER(esm);

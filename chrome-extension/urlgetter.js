@@ -19,6 +19,8 @@ function send_url(url_to_send){
     request.open("POST", "http://127.0.0.1:8000/json-example", true);
     request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     request.send(JSON.stringify({url: url_to_send}));
+        //TODO: Send the name of the user as well
+        //TODO: Add a dislike or like in the json object
 }
 
 
