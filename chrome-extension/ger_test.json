@@ -47,5 +47,26 @@
         "action": "likes",
         "thing": "accelerated",
         "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "tyler",
+        "action": "likes",
+        "thing": "paul-krugman",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "tyler",
+        "action": "likes",
+        "thing": "crunchbase",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "tyler",
+        "action": "likes",
+        "thing": "cnn",
+        "expires_at": "2025-06-06"
     }
 ]

@@ -65,11 +65,11 @@ ger.initialize_namespace('newsletters')
   console.log("\nRecommendations For 'alice'")
   console.log(JSON.stringify(recommendations, null, 2))
 })
-.then( function() {
-  // What newsletters are similar to paul-krugman's?
-  return ger.recommendations_for_thing('newsletters', 'paul-krugman', {actions: {likes: 1}})
-})
-.then( function(recommendations) {
-  console.log("\nRecommendations Like 'paul-krugman'")
-  console.log(JSON.stringify(recommendations, null, 2))
-})
+// .then( function() {
+//   // What newsletters are similar to paul-krugman's?
+//   return ger.recommendations_for_thing('newsletters', 'paul-krugman', {actions: {likes: 1}})
+// })
+// .then( function(recommendations) {
+//   console.log("\nRecommendations Like 'paul-krugman'")
+//   console.log(JSON.stringify(recommendations, null, 2))
+// })
