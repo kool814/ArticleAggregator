@@ -68,5 +68,41 @@
         "action": "likes",
         "thing": "cnn",
         "expires_at": "2025-06-06"
+    },
+
+    {
+        "namespace": "newsletters",
+        "person": "jon",
+        "action": "likes",
+        "thing": "delian-substack",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "jon",
+        "action": "likes",
+        "thing": "theSkimm",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "steve",
+        "action": "likes",
+        "thing": "paul-krugman",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "jake",
+        "action": "dislikes",
+        "thing": "paul-krugman",
+        "expires_at": "2025-06-06"
+    },
+    {
+        "namespace": "newsletters",
+        "person": "jake",
+        "action": "likes",
+        "thing": "delian-substack",
+        "expires_at": "2025-06-06"
     }
 ]
